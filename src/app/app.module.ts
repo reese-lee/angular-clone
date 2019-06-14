@@ -3,11 +3,15 @@ import { NgModule } from '@angular/core';
 
 
 import { AppComponent } from './app.component';
+import { FloatingBannerComponent } from './floating-banner/floating-banner.component';
+import { ParallaxDirective } from './parallax.directive';
 
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    FloatingBannerComponent,
+    ParallaxDirective
   ],
   imports: [
     BrowserModule
